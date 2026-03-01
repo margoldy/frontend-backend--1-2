@@ -20,7 +20,7 @@ res.send('Главная страница');
 //CRUD
 //просмотр всех
 app.get('/products', (req, res) => {
-    res.json(JSON.stringify(products));
+    res.json(products);
 });
 
 //просмотр по id
